@@ -52,4 +52,12 @@ foreach ($newArray as $key => $value) {
  echo "$value ";
 } echo "<br>";
 
+foreach ($year as $index => $yr) {
+  $define = cal_days_in_month(CAL_GREGORIAN, 2, $yr);
+  if($define == 29) {
+      echo "true ";
+  } else {
+      echo "false ";  
+  }
+}
 ?>
