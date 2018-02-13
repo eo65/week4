@@ -55,7 +55,7 @@ echo "There are " . str_word_count($date) . " words in the string <br><br>";
 
 echo "6. Return the length of a string and print out the result:<br>";
 echo "The date length is " . $DateLength . "<br><br>";
-//Look at Line 46
+//Look at Line 43
 
 
 echo "7. Return the ASCII value of the first character of a string and print out the result<br>";
