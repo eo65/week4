@@ -24,7 +24,7 @@ echo "<br><br>";
 
 echo "2. Replace “-“ in \$date with “/“ and print out the result:<br>";
 $date = str_replace("-", "/", $date);
-echo "<br><br>";
+echo $date . "<br><br>";
 
 
 echo "3. Compare \$date with \$tar and then if the result is greater than 0, you should print out “the future”; if the result is less than 0, you should print out “the past”; if the result is equal to 0, you should print out “Oops”. You must use if-elseif statement in this question:<br>";
